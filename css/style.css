@@ -8,7 +8,12 @@
   }
 }
 
-header {
+.container {
+  max-width: 1440px;
+  height: 100vh;
+}
+
+.container header {
   width: 100%;
   height: 250px;
   display: -webkit-box;
@@ -27,7 +32,7 @@ header {
   background: var(--linear);
 }
 
-header .content {
+.container header .content {
   width: 100%;
   height: 100%;
   display: -webkit-box;
@@ -44,7 +49,7 @@ header .content {
       justify-content: space-around;
 }
 
-header .content .title {
+.container header .content .title {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -54,7 +59,7 @@ header .content .title {
           justify-content: space-between;
 }
 
-header .content .title h1 {
+.container header .content .title h1 {
   font-size: 1.5rem;
   line-height: 30px;
   font-weight: 400;
@@ -62,7 +67,7 @@ header .content .title h1 {
   color: var(--white);
 }
 
-header .content .search {
+.container header .content .search {
   width: 100%;
   height: 65px;
   border-radius: 5px;
@@ -75,7 +80,7 @@ header .content .search {
           align-items: center;
 }
 
-header .content .search input {
+.container header .content .search input {
   width: calc(100% - 30px);
   height: 100%;
   border: none;
@@ -84,41 +89,41 @@ header .content .search input {
   font-size: 1.125rem;
 }
 
-header .content .search input::-webkit-input-placeholder {
+.container header .content .search input::-webkit-input-placeholder {
   font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 1.125rem;
   color: rgba(255, 255, 255, 0.5);
 }
 
-header .content .search input:-ms-input-placeholder {
+.container header .content .search input:-ms-input-placeholder {
   font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 1.125rem;
   color: rgba(255, 255, 255, 0.5);
 }
 
-header .content .search input::-ms-input-placeholder {
+.container header .content .search input::-ms-input-placeholder {
   font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 1.125rem;
   color: rgba(255, 255, 255, 0.5);
 }
 
-header .content .search input::placeholder {
+.container header .content .search input::placeholder {
   font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 1.125rem;
   color: rgba(255, 255, 255, 0.5);
 }
 
-header .content .search img {
+.container header .content .search img {
   height: 30px;
   width: 30px;
   margin: 0 17px;
 }
 
-main {
+.container main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -134,13 +139,13 @@ main {
           justify-content: center;
 }
 
-main .content {
+.container main .content {
   width: 100%;
   height: 100%;
   padding: 100px 0;
 }
 
-main .content article {
+.container main .content article {
   width: 100%;
   height: auto;
   display: -webkit-box;
@@ -157,11 +162,11 @@ main .content article {
   background-color: #fff;
 }
 
-main .content article + article {
+.container main .content article + article {
   margin-top: 50px;
 }
 
-main .content article .article-header {
+.container main .content article .article-header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -173,19 +178,19 @@ main .content article .article-header {
   margin-bottom: 20px;
 }
 
-main .content article .article-header i {
+.container main .content article .article-header i {
   font-size: 1.5625rem;
   color: var(--blue-dark);
 }
 
-main .content article h1 {
+.container main .content article h1 {
   font-size: 1.625rem;
   font-weight: normal;
   color: var(--title);
   margin-bottom: 8px;
 }
 
-main .content article p {
+.container main .content article p {
   font-size: 1.125rem;
   color: var(--text);
   line-height: 32px;
