@@ -161,7 +161,7 @@ main .content article + article {
   margin-top: 50px;
 }
 
-main .content article .article-header {
+main .content article .card-header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -173,7 +173,7 @@ main .content article .article-header {
   margin-bottom: 20px;
 }
 
-main .content article .article-header i {
+main .content article .card-header i {
   font-size: 1.5625rem;
   color: var(--blue-dark);
 }
